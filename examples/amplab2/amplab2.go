@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"corral"
+	"github.com/bcongdon/corral"
 )
 
 const subStrX = 8

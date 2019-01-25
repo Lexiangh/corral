@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"internal/pkg/corfs"
+	"github.com/bcongdon/corral/internal/pkg/corfs"
 	log "github.com/sirupsen/logrus"
 )
 
