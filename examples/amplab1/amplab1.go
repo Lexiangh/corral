@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bcongdon/corral"
+	"corral"
 )
 
 const pageRankCutoff = 50

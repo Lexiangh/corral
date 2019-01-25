@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bcongdon/corral"
+	"corral"
 )
 
 type amplab3Join struct{}

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bcongdon/corral"
+	"corral"
 )
 
 type wordCount struct{}
