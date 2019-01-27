@@ -14,9 +14,3 @@ script: go test ./... -v -coverprofile=coverage.txt -covermode=atomic
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-
-env:
- - AWS_ACCESS_KEY_ID=AKIAIOXKRYYSA5ER62KQ
-   AWS_SECRET_ACCESS_KEY=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
-   AWS_DEFAULT_REGION=us-east-1
-   AWS_TEST_BUCKET=mapreducepsu
